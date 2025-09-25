@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(226, 250, 253);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+h1 {
+  color: rgb(255, 221, 252);
+}
+p {
+  color: rgb(219, 225, 246);
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  background-color: rgb(252, 243, 251);
+}
+img {
+  width: 300px;
+  height: auto;
+}
+a{
+    color:rgb(139, 109, 249)
+}
+a:hover {
+  color: rgb(0, 0, 2);
+}
+#main-title {
+  text-align: center;
+}
+.fancy-words {
+  color: rgb(2, 0, 2);
+  font-style: italic;
+}
+.title {
+    text-align: center;
+}
+.book-list {
+    color: rgb(148, 168, 255);
+}
+.why-i-love-books {
+    color: rgb(255, 229, 233);
+}
+.image {
+    color:black
+}
+.piglet {
+    color: rgb(255, 182, 193);
+}
+.eeyore-header {
+  color: rgb(180, 190, 255);
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+ nav ul {
+    font-size: 14px;
+  }
+}
+#bear {
+    color: rgb(255, 253, 164);
+    font-weight: bold;
+}
+#pig {
+    color: rgb(255, 182, 193);
+    font-weight: bold;
+}
+#bow {
+    color: rgb(255, 111, 193);
+    font-weight: bold;
+}
